@@ -1,4 +1,4 @@
 interface:
   display_name: "Web Assets Downloader"
   short_description: "Find and download official web-hosted assets."
-  default_prompt: "Use $web-assets-downloader to find, verify, and download official product images from a brand website into asset/<criteria-slug>/ in this repo."
+  default_prompt: "Use $web-assets-downloader to fully execute the workflow: identify the official source page, extract and filter candidates, probe the highest valid resolution, visually verify finals, save them into asset/<criteria-slug>/, write a manifest, and report gate completion or blockers."
